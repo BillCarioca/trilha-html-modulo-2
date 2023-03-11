@@ -11,7 +11,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgb(13, 184, 127);
 }
 .main {
     display: flex;
@@ -19,12 +19,13 @@ body {
     width: 85%;
 }
 .menu {
+    
     width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
+    background-color: rgb(2, 73, 89);
+    padding: 10px 10px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: rgb(2, 73, 89);
     min-height: 150px;
 }
 .content {
@@ -33,6 +34,57 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color: rgb(2, 73, 89);
+    min-height: 50px;
+}
+input[type=text] {
+    width: 40%;
+    padding: 6px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 2px solid rgb(2, 73, 89);
+    border-radius: 2px;
+    background-color:rgb(242, 227, 213);
+    color: rgb(2, 73, 89);
+}
+input[type=email] {
+    width: 40%;
+    padding: 6px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 2px solid rgb(2, 73, 89);
+    border-radius: 2px;
+    background-color:rgb(242, 227, 213);
+    color: rgb(2, 73, 89);
+}
+select{
+    width: 40%;
+    padding: 6px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 2px solid rgb(2, 73, 89);
+    border-radius: 2px; 
+    background-color:rgb(242, 227, 213);
+    color: rgb(2, 73, 89);
+}
+textarea{
+    width: 40%;
+    padding: 6px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 2px solid rgb(2, 73, 89);
+    border-radius: 2px; 
+    background-color:rgb(242, 227, 213);
+    color: rgb(2, 73, 89);
+}
+label{
+    color: rgb(2, 73, 89);
+}
+button{
+    background-color: rgb(2, 73, 89);
+    color:rgb(242, 227, 213);
+    border: 2px solid rgb(242, 227, 213);
+}
+iframe{
+    align-items: end;
 }
